@@ -18,16 +18,5 @@ public class chat {
 		public Map<Integer, String> getValue() {
 		return memoire;
 		}
-		@PUT
-		@Consumes("application/json")
-		public static void  insert(@QueryParam("id") Integer id, @QueryParam("val")
-		String val) {
-			
-		memoire.put(id, val);
-		
-		}
-		
-		
-		}
-
+}
 
